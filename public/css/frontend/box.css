@@ -1,0 +1,611 @@
+/*
+h1{
+    font-size:3em;
+    
+}
+*/
+
+
+.form-check .custom-control-label {
+  color: #8e908b;
+  font-size: 1em;
+  line-height: 2.2em;
+  padding-left:15px;
+/*  text-transform: uppercase;*/
+}
+.form-check .custom-control-label::after,
+.form-check .custom-control-label::before {
+  height: 25px;
+  width: 25px;
+}
+.form-check .custom-control-label::before {
+  background-color: #cccccc;
+  border: 1px solid #8e908b;
+  border-radius: 0;
+}
+
+/* When I remove background the icon goes back to that default size */
+.custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #6b9857 !important;
+}
+
+.form-group .form-control {
+    color: #8e908b;
+    background-color: #f6f6f6;
+/*
+  font-size: 1em;
+  line-height: 2.2em;
+*/
+    padding-left:15px;
+    border-radius: 0;
+    border:none;
+/*  text-transform: uppercase;*/
+}
+.txt-left {
+    text-align: left;
+}
+.txt-right {
+    text-align: right;
+}
+.card-img-top {
+    height: 230px !important;
+}
+
+.form-inline .form-control {
+    color: #8e908b;
+    background-color: #f6f6f6;
+/*
+  font-size: 1em;
+  line-height: 2.2em;
+*/
+    padding-left:15px;
+    border-radius: 0;
+    border:none;
+
+/*  text-transform: uppercase;*/
+}
+
+.input-group .form-control {
+    color: #8e908b;
+    background-color: #f6f6f6;
+/*
+  font-size: 1em;
+  line-height: 2.2em;
+*/
+    padding-left:15px;
+    border-radius: 0;
+    border:none;
+
+/*  text-transform: uppercase;*/
+}
+
+.input-group .input-group-text{
+  
+    color: #8e908b;
+    background-color: #f6f6f6;
+/*
+  font-size: 1em;
+  line-height: 2.2em;
+*/
+    padding-left:15px;
+    border-radius: 0;
+    border:none;   
+}
+
+.termsAndConditions{
+    
+    color: #8e908b;
+    font-size:0.6em;
+    text-align:justify;
+    text-decoration: none;
+    decoration: none
+    line-height: 14pt !important;    
+}
+
+.termsAndConditions a:visited{
+    color: #8e908b;
+    text-decoration: none;
+    decoration: none;
+}
+
+.imgMDP{
+    
+    height:auto;
+    width:45px;
+    
+}
+
+/*
+.ownerCDC{
+    
+    margin-left: 54px;
+    
+}
+*/
+
+.btnGreen {
+    
+    background-color: #6b9857;
+    color:white;
+    border-radius: 0;
+/*    border: 1px solid #6b9857;*/
+    
+}
+
+.btnLogin .btn{
+    border-radius: 0;   
+}
+
+.btnLogin a{   
+    color: #8e908b;
+    background-color: #f6f6f6;   
+}
+
+.btn-fb{
+    
+    background-color:#3B5998;
+    color:white;
+    
+}
+
+.btn-tt{
+    
+    background-color:#55ACEE;
+    color:white;
+    
+}
+
+.btn-ggl{
+    
+    background-color:white;
+    color:white;
+    border-color:darkgray;
+    
+}
+
+.btnImg {
+    
+    height:40px;
+    width:auto;
+    
+}
+
+#titleBig {
+    
+    font-size: 1.5em;
+}
+
+.greenText{
+    color:#6b9857;    
+}
+
+
+.greenText a{
+    
+    color:#6b9857;
+    text-decoration: none;
+    decoration: none;
+    
+}
+
+.topBorder{
+    border-top: 1px solid #6b9857;  
+}
+
+.botBorder{
+    border-bottom: 1px solid #6b9857;  
+}
+
+
+.riepilogoBg{
+    background-color: #e6eee3;
+    flex-grow: 1;
+}
+
+.riepilogo h6{
+    
+    color: #8e908b;
+} 
+
+.topBarGreen{
+    
+    background-color: #6b9857;
+    text-align: center;
+    color: white;
+    height: 100px;   
+}
+
+
+
+.totaleConto{
+    
+    background-color: #6b9857;
+    text-align: center;
+    color: white;
+}
+
+.scrollClass{
+/*    height: 250px;*/
+    overflow-y: auto;
+}
+
+ .scrollClass::-webkit-scrollbar {
+    width: 8px;
+}
+
+/*
+ .scrollClass::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(200,200,200,1);
+    border-radius: 10px;
+}
+*/
+
+ .scrollClass::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #527442;
+/*    -webkit-box-shadow: inset 0 0 6px rgba(90,90,90,0.7);*/
+}
+
+.iconsLogged{
+    
+    font-size: 200%;
+    
+}
+
+#barraVerde{
+
+    height: 70px;
+    background-color: #6b9857;
+    color: white;
+    margin-bottom: 0px;
+    line-height: 70px;
+   
+}
+
+#lastContainer{
+    
+    border-bottom: 1px solid #6b9857;
+    color: #8e908b;
+}
+
+#barraVerde h2{
+    
+    line-height: 70px;
+    
+   
+}
+
+
+.carosello{
+
+    border: 1px solid #6b9857;
+    width: 50px; 
+    height: 50px; 
+    margin: 20px;
+}
+
+
+body{
+
+    position: relative;
+    max-width: 100%;
+    
+
+}
+
+
+
+.cateriCards{
+    
+    margin-top:50px;
+    
+}
+
+.card{
+    
+    background-color: white;
+    color: dimgrey;
+    
+    
+}
+
+.card-footer{
+    
+    background-color: #6b9857;
+    text-align: center;
+    
+}
+
+.card-link {
+    
+    color:white !important;
+    text-decoration: none;
+    decoration: none;
+    
+}
+
+.PercheAbbonarsi{
+    
+    margin-top:50px;
+    color: dimgrey;
+    padding:0px 20px;
+    
+}
+
+#titolo-h2{
+    
+    color:#6b9857;
+    
+    
+}
+
+#containerFooter{
+    
+    margin-top: 20px;
+    color: dimgrey;
+    
+}
+
+#logoFooter{
+    
+    width: 70%;
+    
+}
+
+.listFooter{
+    
+    border: none;
+    text-align: left;
+    color:dimgray;
+    padding: 0px;
+}
+
+
+footer h5{
+    
+    text-align: left;
+}
+
+#companyInfo a {
+    
+    color:dimgrey;
+    text-decoration: none;
+    decoration: none;
+    
+}
+
+/***************************/
+
+
+nav {
+    
+    background-color: white;
+    color: #6b9857;
+}
+
+.riepilogo a {
+    
+    color: #6b9857;
+    text-decoration: none;
+    decoration: none;
+}
+
+.riepilogo a:visited {
+    
+    color: #6b9857;
+    text-decoration: none;
+    decoration: none;
+}
+
+#topMenu .nav-link {
+    /*color: #6b9857;*/
+    text-decoration: none;
+    decoration: none;
+    
+}
+
+#topMenu .nav-link:hover {
+    color: #6b9857;
+    text-decoration: none;
+    decoration: none;
+    
+}
+
+#topMenu .nav-link:visited {
+    color: #6b9857;
+    text-decoration: none;
+    decoration: none;
+    
+}
+
+@media (min-width: 768px) {
+ .sticky-top {
+    position: inherit;
+    width: 100%; 
+ }      
+}
+
+@media (max-width: 767px) {
+ .sticky-top {
+    padding: 0;
+    max-width: 100%; 
+ }      
+}
+
+.descrizione {
+    
+    color:white;
+    background-color: #6b9857;
+    margin-bottom: 0;
+    padding-top:0;
+    padding-bottom:20px;
+     
+}
+
+.icone-descrizione {
+    
+    text-align:center;
+    margin-bottom: inherit;
+    
+}
+
+.icone-descrizione img {
+    
+    height: auto; 
+    width: auto; 
+    max-width: 150px; 
+    max-height: 120px;
+}
+
+#cards{
+    
+    color:#6b9857;
+    text-align: center;
+    
+}
+
+#CTAConsegnaGratis{
+    
+    background-color: #6b9857;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    height: 100px;   
+}
+
+#CTAConsegnaGratis button {
+    
+    background-color: white;
+    color: #6b9857;
+    text-decoration: none;
+    decoration: none;
+    border-radius: 0;
+    font-size: 2 em;
+    font-weight: bold;
+    max-height:60px;
+    text-align: center;
+    
+}
+
+#CTAConsegnaGratis h5{
+    
+    margin-bottom: inherit;
+    margin-right: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 60px;
+  width: 60px;
+  outline: #6b9857;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid #6b9857;
+  background-image: none;
+  background-color: #6b9857;
+  
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;
+  color: white;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color: white
+}
+
+.imgSquare{
+    
+    width: auto;
+    height: 113px;
+    
+}
+
+.gallery{
+    
+    list-style: none;
+    
+}
+
+.containerGallery{
+    
+    padding-bottom: 20px;
+    border-bottom: 1px solid #6b9857;
+    
+}
+
+#topContainer{
+    
+    background-color: #6b9857;
+    /*color: white;*/
+    
+/*    height: auto;*/
+}
+.d-inline-flex {
+    color: #6b9857;
+}
+.txtBlack 
+{
+    color:#333333;
+}
+.linkList a {
+    color: #6b9857;
+    text-decoration: none;
+    decoration: none;
+}
+    
+.linkList a:visited {
+    color: #6b9857;
+    text-decoration: none;
+    decoration: none; 
+}
+
+.linkList{
+    
+    margin-left:auto;
+    
+}
+
+.card-footer-icons{
+    
+    font-size: 200%;
+    
+}
+
+.iconsTopImage{
+    
+    background-color: white;
+    font-size: 200%;
+    
+}
+
+.iconsTopImage a {
+    color: #6b9857;
+    text-decoration: none;
+    decoration: none;
+}
+    
+.iconsTopImage a:visited {
+    color: #6b9857;
+    text-decoration: none;
+    decoration: none; 
+}
+.details-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.scroll-y{
+    overflow-y: scroll;
+}
+.word-break{
+    word-break: break-all;
+}
+.green-color{
+    color: #6b9857;
+}

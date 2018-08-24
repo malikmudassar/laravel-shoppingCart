@@ -1,0 +1,114 @@
+.note-group-select-from-files {
+    display: none;
+}
+
+.easyslider-tab {
+    /*text-align: center;*/
+    color: #999999;
+}
+
+.slide-icon {
+    background: #cccccc;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 5px;
+    text-align: center;
+    width: 1.6em;
+    margin-bottom: 8px;
+}
+
+.new-slide-icon {
+    background: #1ab394;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 5px;
+    text-align: center;
+    width: 1.6em;
+    margin-bottom: 8px;
+}
+
+.select2-container--default .select2-selection--single, .select2-container--default .select2-selection--multiple {
+    /* border-color: #e7eaec; */
+    border: 1px solid #e5e6e7 !important;
+}
+
+.radio {
+    padding: 0px !important;
+    margin: 0px 0px 0px 25px !important;
+}
+
+.select2-result-repository {
+    padding-top:4px;
+    padding-bottom:3px
+}
+
+.select2-result-repository__avatar {
+    float:left;
+    width:100px;
+    margin-right:10px
+}
+
+.select2-result-repository__meta {
+    margin-left:70px
+}
+
+.select2-result-repository__title {
+    color:black;
+    font-weight:700;
+    word-wrap:break-word;
+    line-height:1.1;
+    margin-bottom:4px
+}
+
+.select2-result-repository__forks,
+.select2-result-repository__stargazers {
+    margin-right:1em
+}
+
+.select2-result-repository__forks,
+.select2-result-repository__stargazers,
+.select2-result-repository__watchers {
+    display:inline-block;
+    color:#aaa;
+    font-size:11px
+}
+
+.select2-result-repository__description {
+    font-size:13px;
+    color:#777;
+    margin-top:4px
+}
+
+.select2-results__option--highlighted
+.select2-result-repository__title {
+    color:white
+}
+
+.select2-results__option--highlighted
+.select2-result-repository__forks,
+.select2-results__option--highlighted
+.select2-result-repository__stargazers,
+.select2-results__option--highlighted
+.select2-result-repository__description,
+.select2-results__option--highlighted
+.select2-result-repository__watchers {
+    color:#c6dcef
+}
+
+.s2-docs-sidebar.affix {
+    position:static
+}
+
+.contact-box {
+    min-height: 160px;
+}
